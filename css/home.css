@@ -1,0 +1,129 @@
+/* home */
+body
+{
+    color: white;
+}
+.MainColor
+{
+    color:darkkhaki 
+}
+
+
+.img
+{
+    width: 8vh;
+    height: 8vh;
+
+}
+
+.home
+{
+    background-image:url("/images/971.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-nav a:hover {
+    color:darkkhaki !important;
+  }
+
+.textcolor
+{
+   color: white !important;
+   
+}
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.742);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;     
+}
+
+.home .content .me 
+{
+    font-family: monospace;
+    color: darkkhaki;
+
+}
+.animate
+{
+
+   animation:fadeInDown; 
+  animation-duration: 1.5s; 
+} 
+
+
+/* end home */
+
+
+/* start About me  */
+ 
+.AboutMe
+{
+    background-color:#231f92
+
+}
+
+/* End About ME  */
+
+
+/* start projects  */
+
+.Project
+{
+    background-image:url(/images/top-view-unrecognizable-hacker-performing-cyberattack-night.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grow {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+ .grow:hover {
+    transform: scale(1.03);
+}
+
+.card:hover
+{
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* end projects  */
+
+/* START CONTACTS  */
+
+.email::after
+{
+    content:"alaa.sleem9090@gmail.com";
+    
+}
+
+#Contacts
+{
+    background-color: #2b2a51;
+}
+
+/* ENd contacts  */
+
+
+@media screen and (max-width: 600px) {
+    .Contacts {   
+        display: inline-block;
+    
+    }
+}
+  
